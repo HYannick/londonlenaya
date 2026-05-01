@@ -2,6 +2,20 @@ let cur = 0, rain = false;
 
 // Day of week → panel index
 // Trip: Thu=4, Fri=5, Sat=6, Sun=0, Mon=1
+
+function checkAuth() {
+  const stored = sessionStorage.getItem('auth')
+  if (stored === import.meta.env.VITE_PWD) return
+
+  const input = prompt('🔒 Password ?')
+  if (input !== import.meta.env.VITE_PWD) {
+    document.body.innerHTML = '🚫'
+    return
+  }
+  sessionStorage.setItem('auth', import.meta.env.VITE_PWD)
+}
+
+checkAuth()
     const DAY_MAP:  Record<number, number> = { 4: 0, 5: 1, 6: 2, 0: 3, 1: 4 };
 
 const daysTabs = document.querySelector('.tabs-wrap')
