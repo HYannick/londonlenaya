@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>London Trip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rock Salt&family=Barlow:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <div class="sticker sticker-bird"><img src="/stickers/sticker5.png"/>️</div>
+    <div class="sticker sticker-flag"><img src="/stickers/sticker4.png"/></div>
+    <div class="sticker sticker-nine"><img src="/stickers/sticker3.png"/></div>
+    <div class="sticker sticker-hp"><img src="/stickers/sticker2.png"/></div>
+    <div class="sticker sticker-crown"><img src="/stickers/queen.png"/></div>
+
+    <div class="header-title-wrap">
+        <span class="title-london">London</span><br>
+        <span class="title-trip">Trip</span>
+        <span class="badge-days">4 DAYS</span>
+    </div>
+
+    <div class="photo-cutout"><img src="/stickers/aya.png"/></div>
+    <div class="photo-cutout p2"><img src="/stickers/lenie.png"/></div>
+</div>
+
+<!-- TABS -->
+<div class="tabs-wrap" id="tabs">
+    <div class="tab" data-day="4">Thu</div>
+    <div class="tab" data-day="5">Fri</div>
+    <div class="tab" data-day="6">Sat</div>
+    <div class="tab" data-day="0">Sun</div>
+    <div class="tab" data-day="1">Mon</div>
+</div>
+
+<!-- ── THURSDAY ── -->
+<div class="day-panel" id="day-0">
+    <div class="offtrip-notice" id="notice-0"></div>
+    <div class="day-heading">
+        <h2>First day in London!</h2>
+    </div>
+
+    <div class="card" data-time="21:30">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">21h30</div>
+                <div class="card-name">Platform 9¾</div>
+                <div class="card-desc">Closes at 10pm. Greaaat timing if you are up for it</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Platform+9+3%2F4+King%27s+Cross+London&travelmode=walking"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/platform934.jpg"/></div>
+        </div>
+    </div>
+
+    <div class="card rain-hide" data-time="22:00">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">22h00</div>
+                <div class="card-name">The Scottish Stores</div>
+                <div class="card-desc">An old pub for 1901 ! Rustic architecture, cool vibe, great for our first driiink</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=The+Scottish+Stores+2-4+Caledonian+Road+London&travelmode=walking"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/scottish%20store.jpg"/></div>
+        </div>
+        <div class="card-tip">⚑ Close to the hotel! Independent and family vibes in this pub apparently :D</div>
+    </div>
+
+    <div class="card rain-swap" data-time="22:00">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">22h00</div>
+                <div class="card-name">Coal Drops Yard</div>
+                <div class="card-desc">10 min walk, covered bars, right on the canal</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Coal+Drops+Yard+London&travelmode=walking"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo">🌧️</div>
+        </div>
+    </div>
+</div>
+
+<!-- ── FRIDAY ── -->
+<div class="day-panel" id="day-1">
+    <div class="offtrip-notice" id="notice-1"></div>
+    <div class="day-heading">
+        <h2>Street Art,<br>Shoreditch & South Bank 🎨</h2>
+    </div>
+
+    <div class="card rain-hide" data-time="10:00">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">10h00</div>
+                <div class="card-name">Brick Lane & Shoreditch</div>
+                <div class="card-desc">A lot of streets, full of art and artist! The best district imho</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Brick+Lane+Street+Art+London&travelmode=transit"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/bricklane.jpg"/></div>
+        </div>
+    </div>
+
+    <div class="card rain-swap" data-time="10:00">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">10h00</div>
+                <div class="card-name">Spitalfields + Brick Lane</div>
+                <div class="card-desc">Spitalfields Market entièrement couvert juste à côté.</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Spitalfields+Market+London&travelmode=transit"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo">🌂</div>
+        </div>
+    </div>
+
+    <div class="card" data-time="12:30">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">12h30</div>
+                <div class="card-name">Borough Market</div>
+                <div class="card-desc">Lunch tiiime and we gonna see the best of the best markets!
+                </div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Borough+Market+London&travelmode=walking"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/boroughmarket.webp"/></div>
+        </div>
+        <div class="card-tip">⚑ We gonna eat before we are hungry eheh</div>
+    </div>
+
+    <div class="card" data-time="14:30">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">14h30</div>
+                <div class="card-name">Clink Street → Old Operating Theatre</div>
+                <div class="card-desc">An old operating theater for the 18 century ! Apparently really good and "insolite" !!
+                </div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Old+Operating+Theatre+Museum+London&travelmode=walking"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/oldtheater.jpg"/></div>
+        </div>
+        <div class="card-tip">⚑ It's a small museum :p we gonna chill</div>
+    </div>
+
+    <div class="card" data-time="16:00">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">16h00</div>
+                <div class="card-name">Shad Thames</div>
+                <div class="card-desc">A Victorian street with metallic suspended bridges! it's got the Industriaaaal vibe you like eheh
+                </div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Shad+Thames+London&travelmode=walking"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/shad-thames-londres.webp"/></div>
+        </div>
+    </div>
+
+    <div class="card" data-time="16:30">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">16h30</div>
+                <div class="card-name">Leake Street Arches</div>
+                <div class="card-desc">A street art tunnel (yeah it's gonna be full of street art today eheh but it's worth it!)</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Leake+Street+Arches+London&travelmode=walking"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/leake.webp"/>️</div>
+        </div>
+    </div>
+
+    <div class="card" data-time="17:45">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">17h45</div>
+                <div class="card-name">Big Ben & Westminster Bridge</div>
+                <div class="card-desc">Nothing to say, it's Big Ben ahah</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Westminster+Bridge+London&travelmode=walking"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/bigben.webp"/></div>
+        </div>
+    </div>
+</div>
+
+<!-- ── SATURDAY ── -->
+<div class="day-panel" id="day-2">
+    <div class="offtrip-notice" id="notice-2"></div>
+    <div class="day-heading">
+        <h2>Camden vibes</h2>
+    </div>
+
+    <div class="card" data-time="10:00">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">10h00</div>
+                <div class="card-name">Regent's Canal Walk</div>
+                <div class="card-desc">A "morning" walk along a cute canal just you and me ❤️ </div>
+            </div>
+            <div class="card-photo"><img src="/places/regent.webp"/></div>
+        </div>
+        <div class="card-tip">✦ We gonna grab a coffee before going :p</div>
+    </div>
+
+    <div class="card" data-time="10:30">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">10h30</div>
+                <div class="card-name">Camden Market</div>
+                <div class="card-desc">The Stables, Camden Lock. WOOOORLWIDE Street food, second hand shops and all :D</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Camden+Market+London&travelmode=walking"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/camden.webp"/></div>
+        </div>
+        <div class="card-tip">⚑  I wonder if we should have taken a second case...</div>
+    </div>
+
+    <div class="card rain-hide" data-time="13:30">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">13h30</div>
+                <div class="card-name">Primrose Hill</div>
+                <div class="card-desc">A chill spot with a full view of London</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Primrose+Hill+London&travelmode=walking"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/primrose.webp"/></div>
+        </div>
+    </div>
+
+    <div class="card rain-swap" data-time="13:30">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">13h30</div>
+                <div class="card-name">British Library</div>
+                <div class="card-desc">5 min de King's Cross. Manuscrits de Lennon, Shakespeare, Joyce.</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=British+Library+London&travelmode=transit"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo">📚</div>
+        </div>
+    </div>
+</div>
+
+<!-- ── SUNDAY ── -->
+<div class="day-panel" id="day-3">
+    <div class="offtrip-notice" id="notice-3"></div>
+    <div class="day-heading">
+        <h2>Wizards day 🧙</h2>
+    </div>
+
+    <div class="card" data-time="09:00">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">09h00</div>
+                <div class="card-name">Euston → Watford Junction</div>
+                <div class="card-desc">The big daaaaaay</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=London+Euston+Station&travelmode=walking"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/watford.webp"/></div>
+        </div>
+    </div>
+
+    <div class="card" data-time="10:00">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">10h00</div>
+                <div class="card-name">Warner Bros. Studio Tour</div>
+                <div class="card-desc">Happy birthday my cutie ❤️
+                </div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Warner+Bros+Studio+Tour+London+Watford&travelmode=transit"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/wb.webp"/></div>
+        </div>
+        <div class="card-tip">✦ We NEED to try the Butterbeer</div>
+    </div>
+</div>
+
+<!-- ── MONDAY ── -->
+<div class="day-panel" id="day-4">
+    <div class="offtrip-notice" id="notice-4"></div>
+    <div class="day-heading">
+        <h2>Last morning 🌸</h2>
+    </div>
+
+    <div class="card rain-hide" data-time="10:00">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">10h00</div>
+                <div class="card-name">Portobello Road</div>
+                <div class="card-desc">A cool district before leaving</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Portobello+Road+Market+London&travelmode=transit"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo"><img src="/places/portobello.webp"/></div>
+        </div>
+    </div>
+
+    <div class="card rain-swap" data-time="10:00">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">10h00</div>
+                <div class="card-name">Covent Garden</div>
+                <div class="card-desc">Couvert, artistes de rue, cafés. Meilleur que Notting Hill sous la pluie.</div>
+                <a class="maps-btn"
+                   href="https://www.google.com/maps/dir/?api=1&destination=Covent+Garden+London&travelmode=transit"
+                   target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" rx="1"/>
+                        <rect x="13" y="3" width="8" height="8" rx="1"/>
+                        <rect x="3" y="13" width="8" height="8" rx="1"/>
+                        <rect x="13" y="13" width="8" height="8" rx="1"/>
+                    </svg>
+                    View Maps
+                </a>
+            </div>
+            <div class="card-photo">🎭</div>
+        </div>
+        <div class="card-tip rain-tip">🌧 Covent Garden > Notting Hill sous la pluie.</div>
+    </div>
+
+    <div class="card" data-time="14:00">
+        <div class="done-badge">DONE</div>
+        <div class="next-badge">NEXT ▸</div>
+        <div class="card-inner">
+            <div class="card-content">
+                <div class="card-time">14h00</div>
+                <div class="card-name">Back to King's Cross 🧳</div>
+                <div class="card-desc">Time to say goodbye to London. But we will be back eheh</div>
+            </div>
+            <div class="card-photo"><img src="/places/gatwick.webp"/></div>
+        </div>
+        <div class="card-tip">✦ Heathrow : Piccadilly Line ~50 min · Gatwick : Thameslink ~35 min</div>
+    </div>
+</div>
+
+<!-- RAIN FLOAT -->
+<div class="rain-float" id="rainFloat">
+    <span class="rain-float-label" id="rainLabel">☀️ Sunny mode</span>
+    <div class="toggle" id="rainToggle"></div>
+</div>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
